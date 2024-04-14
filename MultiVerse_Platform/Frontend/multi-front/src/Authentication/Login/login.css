@@ -1,13 +1,6 @@
-body{
-    background-image: url("Login.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
 
 .container{
     width: 330px;
-    height: 440px;
     margin: auto;
     padding: 20px;
     border-style: solid;
@@ -22,7 +15,7 @@ body{
     margin-bottom: 15px;
 }
 
-h2 {
+.special-log {
     font-size: 27px; 
     font-weight: bold;
     background: -webkit-linear-gradient(#4bc0ef, #1d799d);
@@ -32,11 +25,11 @@ h2 {
     margin-bottom: 20px; 
 }
 
-h2.special span {
-    color: white !important;
+.password-container-log{
+    position: relative;
 }
 
-label{
+.label-style{
     display: block;
     font-size: 17px;
     padding: 4px 0;
@@ -46,8 +39,7 @@ label{
     -webkit-text-fill-color: transparent;
 }
 
-input[type="text"],
-input[type="password"] {
+.input-tag-login {
     width: 100%;
     padding: 8px;
     border: 1px solid #ccc;
@@ -118,7 +110,7 @@ input[type="password"] {
     margin: 0;
 }
 
-a{
+.link-log{
     background: -webkit-linear-gradient(#4bc0ef, #1d799d);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -130,8 +122,8 @@ a{
     border: none;
     cursor: pointer;
     position: absolute;
-    top: 47%;
-    right: 19px;
+    top: 75%;
+    right: 7px;
     transform: translateY(-50%);
 }
 
