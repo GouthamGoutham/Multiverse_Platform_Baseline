@@ -24,11 +24,12 @@ const Login = () => {
             return false;
         }
         try {
-            const response = await axios.post('/api/login', { username, password });
-            console.log(response.data);
+            //const response = await axios.post('/api/login', { username, password });
+            window.location.href = "/home";
+            //console.log(response.data);
         } catch (err) {
-            console.log(err.response.data);
-            seterror(err.response.data.message);
+            //console.log(err.response.data);
+            //seterror(err.response.data.message);
         }
     };
 
