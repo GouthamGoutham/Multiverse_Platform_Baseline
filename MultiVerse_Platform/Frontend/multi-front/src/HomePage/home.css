@@ -13,6 +13,13 @@
     text-shadow: 4px 4px 4px rgba(14, 13, 13, 0.9); /* Text shadow for depth */
 }
 
+.service-tiles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Distribute items evenly along the main axis */
+    margin-top: 28px;
+}
+
 .welcome-text p {
     font-size: 1.5rem; /* Larger font size */
     font-style: italic; /* Italicized text */
@@ -21,32 +28,51 @@
 }
 
 
-.service-tiles {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-top: 28px;
-}
-
 .service-tile {
-    background-color: #f0f0f0;
+    background-color: rgba(240, 240, 240, 0.8); /* Semi-transparent background color */
     border-radius: 10px;
     padding: 10px;
-    margin: 20px;
-    width: 270px;
+    margin:15px 20px;
+    width: 220px;
     text-align: center;
     box-shadow: 0px 0px 10px rgba(30, 28, 28, 0.1);
     transition: transform 0.3s ease;
+    position: relative;
+}
+
+.service-tile img {
+    width: 100%;
+    border-radius: 10px; /* Match the border-radius of the tile */
+}
+
+.service-tile-content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: white;
+    text-align: center;
+}
+
+.service-tile h2,
+.service-tile p {
+    margin: 0;
+    padding: 4px 2px;
 }
 
 .service-tile:hover {
-    transform: translateY(-5px); 
+    transform: translateY(-5px);
+    cursor: pointer;
 }
 
 .service-tile h2 {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
+    text-shadow: 4px 4px 4px rgba(14, 13, 13, 0.9);
 }
 
 .service-tile p {
-    font-size: 1.1rem;
+    font-size: 1rem;
 }
