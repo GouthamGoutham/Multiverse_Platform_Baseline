@@ -1,9 +1,8 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom'; // Import NavLink from react-router-dom
 import './nav.css'; // Import your CSS file for styling
-import LogoutIcon from './logout.jpg'; // Import your logout icon
-import { Link } from 'react-router-dom';
-import logout from '../HomePage/logout.jpg'
-import title from '../Authentication/Login/multiverse.jpg'
+import logout from '../HomePage/logout.jpg';
+import title from '../Authentication/Login/multiverse.jpg';
 
 const Navbar = () => {
   return (
@@ -12,14 +11,13 @@ const Navbar = () => {
         <img src={title} className="navbar-logo" alt="Multiverse" />
       </div>
       <ul className="navbar-links">
-        <li><Link to="/home">Home</Link></li>
-        <li><Link to="/portfolio">Portfolio</Link></li>
-        <li><Link to="/contact">Contact Me</Link></li>
-        <li><img src={logout} className="logout-icon" alt="Logout" /></li> {/* Add className="logout-icon" */}
+        <li><NavLink exact to="/home" activeClassName="active">Home</NavLink></li>
+        <li><NavLink to="/portfolio" activeClassName="active">About</NavLink></li>
+        <li><NavLink to="/contact" activeClassName="active">Contact Me</NavLink></li>
+        <li><NavLink to="/login"><img src={logout} className="logout-icon" alt="Logout" /></NavLink></li>
       </ul>
     </nav>
   );
 };
-
 
 export default Navbar;

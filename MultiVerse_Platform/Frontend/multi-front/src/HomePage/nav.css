@@ -31,11 +31,11 @@
 .navbar-links {
   list-style: none;
   display: flex;
-  align-items: center; /* Align vertically with the logout icon */
+  align-items: center; 
 }
 
 .navbar-links li {
-  margin-right: 20px;
+  margin-right: 25px;
   color: #fff; /* White text color */
   text-decoration: none;
   font-size: 1.3rem;
@@ -61,6 +61,12 @@
   font-weight: bold;
   text-transform: uppercase;
   transition: color 0.3s ease;
+}
+
+.navbar-links a.active { /* Styling for active menu item */
+  color: black; /* Change the color for active menu item */
+  -webkit-text-stroke: 2px rgb(205, 230, 238);
+  font-size: 1.3rem;
 }
 
 .navbar-links a:hover {
