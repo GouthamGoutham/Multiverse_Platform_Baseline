@@ -7,6 +7,8 @@ import Home from './HomePage/home';
 import About from './HomePage/Portfolio/about';
 import BackgroundSetter from './BackgroundSetter';
 import Contact from './HomePage/contact/contact';
+import Sm_Home from './shopsphere_marketplace/sm_home/sm_home';
+import Sm_Products from './shopsphere_marketplace/sm_products/sm_products';
 
 function App() {
   return (
@@ -19,6 +21,8 @@ function App() {
         <Route path='/home' element={<Home/>}></Route>
         <Route path='/portfolio' element={<About/>}></Route>
         <Route path='/contact' element={<Contact/>}></Route>
+        <Route path='/shopsphere' element={<Sm_Home/>}></Route>
+        <Route path='/sm_products' element={<Sm_Products/>}></Route>
       </Routes>
     </Router>
   );

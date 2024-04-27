@@ -46,7 +46,7 @@ const Contact = () => {
           <label>Message:</label>
           <textarea name="message" value={formData.message} onChange={handleChange} required />
         </div>
-        <button type="submit">Submit</button>
+        <button className='btn-text' type="submit">Submit</button>
       </form>
     </div>
     </div>

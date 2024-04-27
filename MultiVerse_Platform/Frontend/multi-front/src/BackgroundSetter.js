@@ -3,6 +3,7 @@ import { useLocation } from 'react-router-dom';
 import logBackground from '../src/Authentication/Login/Login.jpg';
 import home from '../src/HomePage/homepage.jpg';
 import portfoliobg from '../src/HomePage/Portfolio/portfolio.jpg'; 
+import sm_home_bg from '../src/shopsphere_marketplace/sm_home/sm_home.jpg';
 
 const BackgroundSetter = () => {
   const location = useLocation();
@@ -15,7 +16,8 @@ const BackgroundSetter = () => {
       '/register': logBackground,
       '/home': home,
       '/portfolio': portfoliobg,
-      '/contact':home
+      '/contact':home,
+      '/shopsphere':sm_home_bg
     };
 
     setImageUrl(RouteBackgrounds[location.pathname]);

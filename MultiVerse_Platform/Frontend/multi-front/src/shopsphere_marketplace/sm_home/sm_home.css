@@ -1,0 +1,46 @@
+/* welcome.css */
+
+
+
+.welcome-container {
+    max-width: 800px; /* Adjust as needed */
+    margin: 0 40px;
+    padding: 50px 20px;
+    text-align:left;
+  }
+  
+  .welcome-container h1 {
+    font-size: 2.5rem; /* Adjust font size */
+    margin-top: 30px;
+    margin-bottom: 40px;
+    font-weight: bold;
+    color: rgb(91, 209, 236);/* Blue color */
+    text-shadow: 4px 4px 6px rgba(14, 13, 13, 0.9);
+  }
+  
+  .welcome-container p {
+    font-size: 1.3rem; /* Adjust font size */
+    line-height: 1.6; /* Adjust line height */
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-style: italic; /* Italicized text */
+    color: black; /* Dark gray text color */
+    text-shadow: 4px 4px 8px white;
+  }
+  
+  .sm_btn{
+    display: inline-block;
+    background: #0b5cad;
+    color: white;
+    padding: 12px 30px;
+    margin: 50px 50px;
+    margin-bottom: 60px;
+    text-decoration: none;
+    border-radius: 30px;
+    transition: background 2s;
+}
+
+.sm_btn:hover {
+    background: rgb(91, 209, 236);
+    color: black;
+  }
