@@ -7,7 +7,7 @@ const Sm_Home=()=>{
     return(
         <div>
             <Sm_Navbar/>
-            <div className="welcome-container">
+            <div className="sm-welcome-container">
                 <h1>Welcome to ShopSphere Marketplace</h1>
                 <p>Discover a wide variety of products in clothing, electronics, beauty products,<br/> and more...</p>
                 <p>Find everything you need from trusted sellers all in one place.</p>

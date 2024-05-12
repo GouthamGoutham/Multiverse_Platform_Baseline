@@ -1,0 +1,87 @@
+/* te_restaurants.css */
+
+.restaurants-container {
+    padding: 20px;
+  }
+  
+  .restaurants-container h2 {
+    text-align: left;
+    padding-left: 105px;
+    margin-bottom: 20px;
+    color: black; /* Adjust the color as needed */
+  }
+  
+  .search-bar {
+    width: 100%;
+    max-width: 600px; /* Adjust the width as needed */
+    margin: 0 auto;
+    padding: 10px;
+    margin-right: 280px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    box-sizing: border-box;
+  }
+  
+  .restaurant-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  .restaurant-item {
+    width: calc(33.33% - 20px); /* Adjust the width based on the number of items per row */
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    text-align: center;
+    transition: transform 0.3s;
+  }
+  
+  .restaurant-item:hover {
+    transform: translateY(-5px);
+  }
+  
+  .restaurant-item img {
+    width: 100%;
+    height: 200px; /* Adjust the height as needed */
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .restaurant-item h3 {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .restaurant-item p {
+    margin: 10px 0;
+    font-size: 16px;
+    color: #888;
+  }
+  
+  .restaurant-item a {
+    text-decoration: none;
+    color: #0b5cad; /* Adjust the color as needed */
+  }
+  
+  .p_te_btn {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #0b5cad; /* Adjust the color as needed */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .p_te_btn:hover {
+    background-color: #0a4b8e; /* Adjust the color as needed */
+  }
+  

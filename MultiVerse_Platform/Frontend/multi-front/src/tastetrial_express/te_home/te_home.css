@@ -1,46 +1,43 @@
-/* welcome.css */
 
-
-
-.sm-welcome-container {
+.te-welcome-container {
     max-width: 800px; /* Adjust as needed */
     margin: 0 40px;
     padding: 50px 20px;
     text-align:left;
   }
   
-  .sm-welcome-container h1 {
+  .te-welcome-container h1 {
     font-size: 2.5rem; /* Adjust font size */
-    margin-top: 30px;
-    margin-bottom: 40px;
+    margin-top: 0;
+    margin-bottom: 30px;
     font-weight: bold;
-    color: rgb(91, 209, 236);/* Blue color */
-    text-shadow: 4px 4px 6px rgba(14, 13, 13, 0.9);
+    color: #800000;/* Blue color */
+    text-shadow: 1px 1px 1px white;
   }
   
-  .sm-welcome-container p {
-    font-size: 1.3rem; /* Adjust font size */
+  .te-welcome-container p {
+    font-size: 1.2rem; /* Adjust font size */
     line-height: 1.6; /* Adjust line height */
     margin-top: 20px;
     margin-bottom: 10px;
     font-style: italic; /* Italicized text */
-    color: black; /* Dark gray text color */
-    text-shadow: 4px 4px 8px white;
+    color: white; /* Dark gray text color */
+    text-shadow: 1px 1px 1px wheat;
   }
   
-  .sm_btn{
+  .te_btn{
     display: inline-block;
-    background: #0b5cad;
+    background: #800000;
     color: white;
     padding: 12px 30px;
-    margin: 50px 50px;
-    margin-bottom: 60px;
+    margin: 0 10px;
+    margin-top: 20px;
     text-decoration: none;
     border-radius: 30px;
     transition: background 2s;
 }
 
-.sm_btn:hover {
-    background: rgb(91, 209, 236);
+.te_btn:hover {
+    background: white;
     color: black;
   }

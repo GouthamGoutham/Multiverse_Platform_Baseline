@@ -4,6 +4,7 @@ import logBackground from '../src/Authentication/Login/Login.jpg';
 import home from '../src/HomePage/homepage.jpg';
 import portfoliobg from '../src/HomePage/Portfolio/portfolio.jpg'; 
 import sm_home_bg from '../src/shopsphere_marketplace/sm_home/sm_home.jpg';
+import te_home_bg from '../src/tastetrial_express/te_bg.jpg';
 
 const BackgroundSetter = () => {
   const location = useLocation();
@@ -17,7 +18,8 @@ const BackgroundSetter = () => {
       '/home': home,
       '/portfolio': portfoliobg,
       '/contact':home,
-      '/shopsphere':sm_home_bg
+      '/shopsphere':sm_home_bg,
+      '/tastetrial':te_home_bg
     };
 
     setImageUrl(RouteBackgrounds[location.pathname]);

@@ -1,0 +1,104 @@
+.product-details-container {
+    display: flex;
+    flex-direction: column;
+    padding: 35px 70px;
+    background-color: #afc4d3;
+}
+
+.prod-cont{
+    display: flex;
+    flex-direction: row;
+}
+
+.product-details-container img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    margin-right: 80px;
+    border-radius: 8px;
+}
+
+.prod-details {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 100px;
+}
+
+.prod-details h2 {
+    font-size: 2rem;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 10px;
+}
+
+.prod-details p {
+    font-size: 16px;
+    font-style:oblique;
+    margin-bottom: 10px;
+}
+
+.prod-details button:hover{
+    background-color: black;
+    color: white;
+}
+
+.prod-details button{
+    margin-top: 30px;
+    margin-right: 20px;
+    width: 110px;
+    height: 35px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px black;
+    font-weight: bolder;
+    background-color: #0b5cad;
+    color: white;
+    cursor: pointer;
+}
+
+.previous-reviews {
+    margin-top: 20px;
+}
+
+.previous-review {
+    margin-bottom: 10px;
+}
+
+.user-review {
+    margin-top: 2px;
+}
+
+.rating {
+    margin-bottom: 10px;
+}
+
+.star {
+    font-size: 24px;
+    cursor: pointer;
+    color: #ccc;
+}
+
+.star.filled {
+    color: #ffc107;
+}
+
+.user-comment {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.user-review button:hover{
+    background-color: black;
+}
+
+.user-review button{
+    margin-top: 15px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    width: 110px;
+    height: 35px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px black;
+    font-weight: bolder;
+    background-color: #0b5cad;
+    color: white;
+    cursor: pointer;
+}

@@ -1,0 +1,108 @@
+.food-details-container {
+    display: flex;
+    flex-direction: column;
+    padding: 35px 70px;
+    background-color: #afc4d3;
+}
+
+.food-cont{
+    display: flex;
+    flex-direction: row;
+}
+
+.food-details-container img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    margin-right: 80px;
+    border-radius: 8px;
+}
+
+.food-details {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 100px;
+}
+
+.food-details h2 {
+    font-size: 2rem;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 10px;
+}
+
+.food-details p {
+    font-size: 16px;
+    font-style:oblique;
+    margin-bottom: 10px;
+}
+
+.food-details button:hover{
+    background-color: black;
+    color: white;
+}
+
+.food-details button{
+    margin-top: 30px;
+    margin-right: 20px;
+    width: 110px;
+    height: 35px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px black;
+    font-weight: bolder;
+    background-color: #0b5cad;
+    color: white;
+    cursor: pointer;
+}
+
+.previous-feedbacks {
+    margin-top: 20px;
+}
+
+.previous-feedback {
+    margin-bottom: 10px;
+}
+
+.user-feedback {
+    margin-top: 2px;
+}
+
+.te-rating {
+    margin-bottom: 10px;
+}
+
+.te-rating h3{
+    margin-bottom: 2px;
+}
+
+.star {
+    font-size: 24px;
+    cursor: pointer;
+    color: #ccc;
+}
+
+.star.filled {
+    color: #ffc107;
+}
+
+.user-comment {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.user-feedback button:hover{
+    background-color: black;
+}
+
+.user-feedback button{
+    margin-top: 15px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    width: 110px;
+    height: 35px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px black;
+    font-weight: bolder;
+    background-color: #0b5cad;
+    color: white;
+    cursor: pointer;
+}

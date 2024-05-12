@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Sm_Navbar from '../sm_navbar/sm_navbar';
 import './sm_products.css';
+import { Link, NavLink } from 'react-router-dom';
 
 const Sm_Products = () => {
     const [searchTerm, setSearchTerm] = useState('');
@@ -55,10 +56,12 @@ const Sm_Products = () => {
                 <div className="product-list">
                     {filteredProducts.map((product) => (
                         <div key={product.id} className="product-item">
+                            <NavLink to={`/productdetails/${product.id}`}>
                             <img src={product.src} alt={product.P_name}></img>
                             <h3>{product.P_name}</h3>
                             <p>${product.price}</p>
                             <button>Add to Cart</button>
+                            </NavLink>
                         </div>
                     ))}
                 </div>
