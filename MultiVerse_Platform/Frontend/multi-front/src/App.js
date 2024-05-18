@@ -15,6 +15,7 @@ import Te_Home from './tastetrial_express/te_home/te_home';
 import Te_Restaurants from './tastetrial_express/te_restaurants/te_restaurants';
 import Te_food_items from './tastetrial_express/te_food_items/te_food_items';
 import Te_Food_Dtls from './tastetrial_express/te_food_details/te_food_dtls';
+import Te_Order_Dtls from './tastetrial_express/te_order_dtls/te_order_dtls';
 
 function App() {
   return (
@@ -35,6 +36,7 @@ function App() {
         <Route path='/te_restaurants' element={<Te_Restaurants/>}></Route>
         <Route path='/foodItems/:id' element={<Te_food_items/>}></Route>
         <Route path='/foodDetails/:id' element={<Te_Food_Dtls/>}></Route>
+        <Route path='/te_order_dtls' element={<Te_Order_Dtls/>}></Route>
       </Routes>
     </Router>
   );
