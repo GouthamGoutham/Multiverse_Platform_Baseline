@@ -1,0 +1,62 @@
+.vv-home-container {
+    max-width: 800px; /* Adjust as needed */
+    margin: 0 40px;
+    padding: 50px 20px;
+    text-align:left;
+    font-family:  sans-serif;
+}
+
+.vv-home-container h1 {
+    color: #2c3e50;
+    font-size: 2.5rem; /* Adjust font size */
+    margin-top: 0;
+    margin-bottom: 30px;
+    font-weight: bold;
+    color: black;/* Blue color */
+    font-style: oblique;
+    text-shadow: 1px 1px 1px white;
+}
+
+.vv-home-container p {
+    font-size: 1.2rem; /* Adjust font size */
+    line-height: 1.6; /* Adjust line height */
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-style: italic; /* Italicized text */
+    color: black; /* Dark gray text color */
+    text-shadow: 1px 1px 1px wheat;
+}
+
+.motto{
+    margin-left: 500px;
+}
+
+.vv-resources {
+    margin-top: 50px;
+}
+
+.vv-resources h2 {
+    color: #16a085;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.vv-resources ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.vv-resources li {
+    margin: 10px 0;
+}
+
+.vv-resources a {
+    color: #2980b9;
+    text-decoration: none;
+    font-size: 1.2em;
+    transition: color 0.3s ease;
+}
+
+.vv-resources a:hover {
+    color: #e74c3c;
+}

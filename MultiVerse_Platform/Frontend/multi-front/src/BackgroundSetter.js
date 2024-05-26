@@ -5,6 +5,7 @@ import home from '../src/HomePage/homepage.jpg';
 import portfoliobg from '../src/HomePage/Portfolio/portfolio.jpg'; 
 import sm_home_bg from '../src/shopsphere_marketplace/sm_home/sm_home.jpg';
 import te_home_bg from '../src/tastetrial_express/te_bg.jpg';
+import vc_bg from '../src/vital-verse care/vc-bg.jpg';
 
 const BackgroundSetter = () => {
   const location = useLocation();
@@ -19,7 +20,8 @@ const BackgroundSetter = () => {
       '/portfolio': portfoliobg,
       '/contact':home,
       '/shopsphere':sm_home_bg,
-      '/tastetrial':te_home_bg
+      '/tastetrial':te_home_bg,
+      '/vitalverse':vc_bg
     };
 
     setImageUrl(RouteBackgrounds[location.pathname]);

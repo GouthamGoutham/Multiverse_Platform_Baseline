@@ -1,0 +1,86 @@
+/* DoctorDetails.css */
+
+.doctor-details-container {
+    padding: 30px 90px;
+    background-color: azure;
+}
+
+.doctor-details {
+    margin-bottom: 20px;
+}
+
+.doctor-details h2 {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.doctor-details p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.available-timings {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.available-timings h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.available-timings ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.available-timings ul li {
+    font-size: 16px;
+    cursor: pointer;
+    padding: 5px 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+    transition: background-color 0.3s;
+}
+
+.available-timings ul li:hover {
+    background-color: #e0e0e0;
+}
+
+.appointment-schedule {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.appointment-schedule h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.appointment-schedule input[type="date"] {
+    padding: 8px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.appointment-schedule button {
+    padding: 10px 15px;
+    margin-left: 15px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.appointment-schedule button:hover {
+    background-color: #0056b3;
+}
+
+.appointment-schedule p {
+    font-size: 16px;
+    margin-top: 10px;
+}
