@@ -1,0 +1,119 @@
+/* Vv_User_Details.css */
+
+.user-details-container {
+    padding: 20px;
+}
+
+.user-details-container h2 {
+    text-align: left;
+    margin-bottom: 20px;
+    color: black;
+    margin-left: 30px;
+}
+
+.existing-details {
+    margin-bottom: 20px;
+}
+
+.existing-details p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.user-details-form {
+    margin-bottom: 20px;
+}
+
+.user-details-container .form-group {
+    margin-bottom: 15px;
+    margin-left: 30px;
+}
+
+.user-details-container .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.user-details-container .form-group input {
+    width: 50%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.submit-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    margin-left: 30px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+    background-color: #0056b3;
+}
+
+.upload-section {
+    margin-bottom: 20px;
+    margin-left: 30px;
+}
+
+.upload-section h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.upload-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.upload-button:hover {
+    background-color: #218838;
+}
+
+.documents-list {
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+
+.documents-list h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.documents-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.documents-list ul li {
+    margin-bottom: 5px;
+}
+
+.documents-list ul li a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.documents-list ul li a:hover {
+    text-decoration: underline;
+}
+
+.message {
+    font-size: 16px;
+    color: #28a745;
+    margin-top: 10px;
+}

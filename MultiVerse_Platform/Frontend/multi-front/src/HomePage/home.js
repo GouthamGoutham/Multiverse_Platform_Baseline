@@ -32,13 +32,13 @@ const Home = () => {
                         <p>Experience new flavors with our curated taste trials.</p>
                     </div>
                 </Link>
-                <Link to="/journeyjunction" className="service-tile">
+                {/*<Link to="/journeyjunction" className="service-tile">
                     <img src={journeyJunctionImage} alt="Journey Junction Navigator" />
                     <div className="service-tile-content">
                         <h2>Journey Junction Nav</h2>
                         <p>Find your way with our travel planning platform.</p>
                     </div>
-                </Link>
+                </Link>*/}
                 <Link to="/vitalverse" className="service-tile">
                     <img src={vitalverseImage} alt="Vitalverse Care" />
                     <div className="service-tile-content">
