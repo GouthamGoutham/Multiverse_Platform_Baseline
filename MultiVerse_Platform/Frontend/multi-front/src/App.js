@@ -24,6 +24,8 @@ import DoctorDetails from './vital-verse care/vv_appointment/vv_doctor_dtls/vv_d
 import Vv_User_Details from './vital-verse care/vv_user_dtls/vv_user_dtls';
 import FeedScreen from './Connect_Verse_Platform/Cv_Feed/cv_feed';
 import ProfileScreen from './Connect_Verse_Platform/Cv_Profile/cv_profile';
+import ChatScreen from './Connect_Verse_Platform/Cv_chat/cv_chat';
+import UserList from './Connect_Verse_Platform/Cv_chat/users_list';
 
 function App() {
   return (
@@ -53,6 +55,8 @@ function App() {
         <Route path='/vv_user_dtls' element={<Vv_User_Details/>}></Route>
         <Route path='/connectverse' element={<FeedScreen/>}></Route>
         <Route path='/cv_Profile' element={<ProfileScreen/>}></Route>
+        <Route path='/cv_chat' element={<UserList/>}></Route>
+        <Route path="/chat/:recipientId" element={<ChatScreen />} />
       </Routes>
     </Router>
   );
